@@ -1,0 +1,36 @@
+{
+  "name": "@csejtei/custom-button",
+  "module": "/dist/custom-button",
+  "description": "A custom button for ReactJS projects.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Dávid Csejtei",
+    "email": "davidcsejtei90@gmail.com"
+  },
+  "homepage": "https://github.com/davidcsejtei/custom-button#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:davidcsejtei/custom-button.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "docs": "start-storybook -p 9001 -c .storybook",
+    "docs:build": "build-storybook -c .storybook -o docs"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-info": "^4.1.11",
+    "@storybook/components": "^4.1.11",
+    "@storybook/react": "^4.1.11",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^1.0.1",
+    "react": "^16.7.0",
+    "storybook-addon-jsx": "^6.0.0",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  }
+}
