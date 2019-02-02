@@ -2,7 +2,7 @@
   "name": "@csejtei/custom-button",
   "module": "/dist/custom-button",
   "description": "A custom button for ReactJS projects.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Dávid Csejtei",
     "email": "davidcsejtei90@gmail.com"
